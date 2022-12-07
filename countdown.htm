@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <div style="width: 130px;" class="box">
+                <h2 id="days-text">Days</h2>
+                <p id="days">0</p>
+            </div>
+            <div class="box">
+                <h2 id="hours-text">Hours</h2>
+                <p id="hours">0</p>
+            </div>
+            <div class="box">
+                <h2 id="minutes-text">Minutes</h2>
+                <p id="minutes">0</p>
+            </div>
+            <div class="box">
+                <h2 id="seconds-text">Seconds</h2>
+                <p id="seconds">0</p>
+            </div>
+        </div>
+        <div class="container">
+            <button onclick="start()">start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="reset()">reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
